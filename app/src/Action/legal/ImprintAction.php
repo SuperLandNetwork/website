@@ -4,6 +4,7 @@
  *
  * Copyright (c) 2019 Filli Group (Einzelunternehmen)
  * Copyright (c) 2019 Filli IT (Einzelunternehmen)
+ * Copyright (c) 2019 Filli Games (Einzelunternehmen)
  * Copyright (c) 2019 Ursin Filli
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -46,7 +47,7 @@ final class ImprintAction
 
     public function __invoke(Request $request, Response $response, $args)
     {
-        $this->logger->info('Imprint page action dispatched');
+        $this->logger->debug('Imprint page action dispatched');
 
         $this->view->render($response, 'pages/legal/imprint.twig', array(
             'title' => 'Anbieter',

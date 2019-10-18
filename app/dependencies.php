@@ -4,6 +4,7 @@
  *
  * Copyright (c) 2019 Filli Group (Einzelunternehmen)
  * Copyright (c) 2019 Filli IT (Einzelunternehmen)
+ * Copyright (c) 2019 Filli Games (Einzelunternehmen)
  * Copyright (c) 2019 Ursin Filli
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -93,7 +94,11 @@ $container['logger'] = function ($c) {
     $settings = $c->get('settings');
     $logger = new Monolog\Logger($settings['logger']['name']);
     $logger->pushProcessor(new Monolog\Processor\UidProcessor());
-    $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['logger']['path'], Monolog\Logger::DEBUG));
+    if ($_SERVER['API_RUNTIME_MODE'] == 'Dev') {
+        $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['logger']['path'], Monolog\Logger::DEBUG));
+    } else {
+        $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['logger']['path'], Monolog\Logger::INFO));
+    }
     return $logger;
 };
 

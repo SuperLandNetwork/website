@@ -4,6 +4,7 @@
  *
  * Copyright (c) 2019 Filli Group (Einzelunternehmen)
  * Copyright (c) 2019 Filli IT (Einzelunternehmen)
+ * Copyright (c) 2019 Filli Games (Einzelunternehmen)
  * Copyright (c) 2019 Ursin Filli
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -46,7 +47,7 @@ final class HomeAction
 
     public function __invoke(Request $request, Response $response, $args)
     {
-        $this->logger->info('Home page action dispatched');
+        $this->logger->debug('Home page action dispatched');
 
         $this->view->render($response, 'pages/home.twig', array(
             'title' => 'Coming Soon',
