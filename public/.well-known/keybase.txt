@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/ursinn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://superlandnetwork.de
+  * I am ursinn (https://keybase.io/ursinn) on keybase.
+  * I have a public key with fingerprint 3BBF 4CF4 7371 ADBC DF8D  6FAB D17A E140 521D 6E21
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101157f81f44b0dc5051a90cfc352ed5d070573e537bec3eda115dc7cf287165b6a0a",
+      "fingerprint": "3bbf4cf47371adbcdf8d6fabd17ae140521d6e21",
+      "host": "keybase.io",
+      "key_id": "d17ae140521d6e21",
+      "kid": "0101157f81f44b0dc5051a90cfc352ed5d070573e537bec3eda115dc7cf287165b6a0a",
+      "uid": "b4886619e66bb25f2445e4ef14a87219",
+      "username": "ursinn"
+    },
+    "service": {
+      "hostname": "superlandnetwork.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1571577530,
+  "expire_in": 157680000,
+  "prev": "4f04279a38cb82263230bbdf2dd96a632e1dd17708a2d745e840ac6690678cb8",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUn1MVWUY5zuE8KMQGALJUQKU2fk+515InNYQkrvA+EiB2znnfQ+ecTn3eu+5
+FxCsS5sWjZCgsiFNwEWFIVQMRWhoMI0ZOdEVEMs1UYRMUcAgudE5TP/rz96927vn
+eX+/3/P8nj3VAZ5uvu5XDvy+LT1cjnS/NMm75X6VN1SK8GZQguhLkQK4/EATgDbF
+WCABRI+gGIphFCOymEiSPAoECqUwTocKokBQOAQUQBmUYghIEQwPBQICTsUDgRFE
+nGUwmuJpDuWQOESU5HxotVglWVFlCZ4XSUEkGYLBOMALQGQBLXI8wBgOYiRK4Rig
+IY6pxH1mm8ZQm+M5G9wimdWcGhiX2/sP/P/ct31ZjidZlqYxHaRpnscpESdJCpJQ
+xEiOZXBMpwFt0CpzhVBF2602SZaRg3GImnNIAtTGqvl4/G+zW6DVxMlAhkqR2Vqw
+BUBVwGI1K2bBbFIB+xTFYtNrAkqJRWMUQd74WMvISzJQh6kyHFAtZJYRPaYiBUXS
+xFXT6mUoAo1DYLFFskKjJC+naRZVj1YHOlRJUsxDSZzRcQQr8CyO0wROoDwPRBwA
+Hc2pIcSAOl8GZTkcMKpflkQ5gaZ1KM1oFESzt182I3qCVhvl8jVnUr7MKXYrRA76
+VXgQXm7uvm7hQZFe8b27Zm37W3uuv28++WQDvT209XPzW7H6SeYvw6qlVOHrrO9e
+d46Zqri9UVMPsTXTuWzZsQYYXJE/jNQk1n6aE+DzwrQLnXvQl7t+yR7kPVirnHsj
+sIa+0xzXfSsyqdk9u2+bwfrToPe4jyWhZZP9w+jsP16ZCHxHX41lxbQ/uL45k9xY
+dnjiWlH96PmW4IlT/Wdfzslakz0afejGFyP+4/6ZH7/pTFm4ZgjpL3A6EiqLj4f8
+UNnm3P1BRm2GNcYLxB1Oy90aS//ocXpD6azp+5WpSzMrLwV9zrfe7k5KCPG4Gewy
+zI8/56i6W3OAgC3Fv5RPdw5XxQR3ptWfTyhcdNX1XIh/hNhd/mD13wEzmWFXKqeK
+Y187tfOj7UVpdfTk0Nm+YP/a6szUtpKod7sMOW+tQjxTEgrlTes2VD+V8cmA3NgX
+vic/ucEYikVenb8TFhB7/NsCn977C75Jo2Ed5e13E5u+9PSL8Yg40fjMwki1hHzW
+0XXBNhbkMk+N7ETrL+4ZK05rItqa//m1e9Z/ZunkobXJx3RHQiMCH3WYI57e3Im9
+Kg6nuc4cjm7Ki37vXuPNsZ7oLFBR/pIzImcvN3e1a/f9gTqlYUVV6tFnj0T9qd8h
+L4aWHb23/XJ228+1nRJ+zovfupTjdPUOtqdnXb4YP5tiam1bt8OW/CK6ODm6Kz3x
+RiTd/7a3vPbWesfGb1ofsqnPV96e++10TNDACWV+yHBmaP5f
+=Tl10
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ursinn
+
+==================================================================
